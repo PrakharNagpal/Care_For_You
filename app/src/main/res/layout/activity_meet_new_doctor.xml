@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" android:paddingLeft= "@dimen/activity_horizontal_margin"
+    android:paddingRight = "@dimen/activity_horizontal_margin"
+    android:paddingTop = "@dimen/activity_vertical_margin"
+
+    android:paddingBottom = "@dimen/activity_vertical_margin" tools:context = ".MeetNewDoctor">
+
+    <TextView android:text = "Hi Doctor" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+
+        android:id = "@+id/Hi"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+    <ImageView
+        android:id="@+id/Qr"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/Hi"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-301dp"
+        android:src="@drawable/qrd" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Qr"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-178dp"
+        android:text="Prakhar here!\nMy Code is:123456"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="35dp" />
+</RelativeLayout>

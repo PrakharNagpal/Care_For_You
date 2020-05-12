@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doc2"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Appointments">
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:text="APPOINTMENTS"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="35dp" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+
+        android:background="#3D3838" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="75dp"
+
+        android:background="#0000A0" />
+
+
+    <ImageView
+        android:id="@+id/I11"
+        android:layout_width="117dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/h1"
+        android:layout_marginBottom="-106dp"
+        android:src="@drawable/doc" />
+
+    <TextView
+        android:id="@+id/C11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/I11"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dr.Kalpana Batra"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="25dp" />
+
+    <View
+        android:id="@+id/line11"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="179dp"
+        android:background="#0000A0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/I11"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="-14dp"
+        android:text="Dt:15/05/2020\nTime-5:00pm"
+
+        android:textSize="15dp" />
+</RelativeLayout>

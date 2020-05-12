@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cb"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".All">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="ALL PRESCRIPTIONS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/doc1"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/heading"
+        android:layout_marginBottom="-106dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+
+        android:text="Dr. Rahul Gupta \n Dt 12/02" />
+
+    <Button
+        android:id="@+id/doc2"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/doc1"
+        android:layout_marginBottom="-106dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+
+        android:text="Dr. Rahul Gupta \n Dt 15/03" />
+
+    <Button
+        android:id="@+id/doc3"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/doc2"
+        android:layout_marginBottom="-106dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+
+        android:text="Dr. Ashish Batra \n Dt 10/04" />
+
+    <Button
+        android:id="@+id/doc4"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/doc3"
+        android:layout_marginBottom="-106dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+
+        android:text="Dr. Raj Oberoi \n Dt 15/05" />
+</RelativeLayout>
