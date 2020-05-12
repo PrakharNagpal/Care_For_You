@@ -1,6 +1,7 @@
 package com.example.health;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -36,8 +37,8 @@ public class MainActivity extends Activity  {
             public void onClick(View v) {
                 if(ed1.getText().toString().equals("admin") &&
                         ed2.getText().toString().equals("admin")) {
-                    Toast.makeText(getApplicationContext(),
-                            "Redirecting...",Toast.LENGTH_SHORT).show();
+                        openIntroScreen();
+
                 }else{
                     Toast.makeText(getApplicationContext(), "Wrong Credentials",Toast.LENGTH_SHORT).show();
 
@@ -59,5 +60,9 @@ public class MainActivity extends Activity  {
                 finish();
             }
         });
+    }
+    public void openIntroScreen(){
+        Intent intent=new Intent(this,IntroScreen.class);
+        startActivity(intent);
     }
 }
