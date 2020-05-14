@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/doc"
+    android:background="@drawable/menu3"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
 
@@ -18,54 +18,97 @@
         android:layout_alignParentTop="true"
 
         android:layout_centerHorizontal="true"
-        android:text="Hi Prakhar!"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Hi Robin!"
+        android:textColor="#4E57C7"
         android:textFontWeight="@android:integer/config_longAnimTime"
-        android:textSize="35dp" />
+        android:textSize="35dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="397dp"
-        android:layout_height="75dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="342dp"
+        android:layout_height="37dp"
         android:layout_alignBottom="@+id/introname"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="-106dp"
-        android:text="Meet new Doctor" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="-174dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/montserrat"
+        android:text="Meet new Doctor"
+        android:textAlignment="textStart"
+        android:textColor="#4E57C7"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="397dp"
-        android:layout_height="75dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button1"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="-77dp"
-        android:text="All Prescriptions" />
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="-92dp"
+        android:background="#7DEAFF"
+        android:fontFamily="@font/montserrat"
+        android:text="All Prescriptions"
+        android:textAlignment="textStart"
+        android:textColor="#4E57C7"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="397dp"
-        android:layout_height="75dp"
+        android:layout_width="334dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button2"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="-87dp"
-        android:text="Medicines Given" />
+        android:layout_marginLeft="3.5dp"
+        android:layout_marginBottom="-86dp"
+        android:background="#7DEAFF"
+        android:text="Medicines Given"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAlignment="textStart"
+        android:textColor="#4E57C7"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="397dp"
-        android:layout_height="75dp"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_alignBottom="@+id/button3"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="-87dp"
-        android:text="Consultations" />
+        android:layout_marginBottom="-84dp"
+        android:background="#7DEAFF"
+        android:text="Consultations"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAlignment="textStart"
+        android:textColor="#4E57C7"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="397dp"
-        android:layout_height="75dp"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_alignBottom="@+id/button4"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="-87dp"
-        android:text="Appointments" />
+        android:layout_marginBottom="-81dp"
+        android:background="#7DEAFF"
+        android:text="Appointments"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAlignment="textStart"
+        android:textColor="#4E57C7"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:text="Pt. ID: PT123"
+        android:textColor="#4E57C7"
+        android:textStyle="bold" />
 
 </RelativeLayout>
 

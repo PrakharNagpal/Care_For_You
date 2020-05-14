@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/consult"
+    android:background="@drawable/consultations"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -11,103 +11,87 @@
     tools:context=".Consultations">
 
     <TextView
-        android:id="@+id/h"
-        android:layout_width="wrap_content"
+        android:id="@+id/heading"
+        android:layout_width="206dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
 
-        android:layout_centerHorizontal="true"
-        android:text="CONSULTATIONS"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="69dp"
+        android:fontFamily="@font/montserrat"
+        android:text="ROBIN JACOB\nPt. ID:PT123"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#4E57C7"
         android:textFontWeight="@android:integer/config_longAnimTime"
-        android:textSize="35dp" />
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
-    <View
-        android:layout_width="350dp"
-        android:layout_height="5dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Dr. Smith Phillips"
+        android:textColor="#4E57C7"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="25dp" />
 
-        android:background="#3D3838" />
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/C1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="265dp"
+        android:progressTint="#4E57C7"
+        android:visibility="visible" />
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:layout_marginTop="75dp"
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/C1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="135dp"
+        android:progressTint="#4E57C7"
+        android:visibility="visible" />
 
-        android:background="#0000A0" />
-
-
-    <ImageView
-        android:id="@+id/I1"
-        android:layout_width="117dp"
-        android:layout_height="68dp"
-        android:layout_alignBottom="@+id/h"
-        android:layout_marginBottom="-106dp"
-        android:src="@drawable/doc" />
 
     <TextView
         android:id="@+id/C1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/I1"
-        android:layout_marginLeft="150dp"
-        android:layout_marginBottom="20dp"
-        android:text="Dr.Kalpana Batra"
-        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Dr. John Phillips"
+        android:textColor="#4E57C7"
         android:textFontWeight="@android:integer/config_longAnimTime"
         android:textSize="25dp" />
-
-    <View
-        android:id="@+id/line1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:layout_marginTop="179dp"
-        android:background="#0000A0" />
-
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="192dp"
-        android:layout_height="44dp"
-        android:layout_below="@id/C1"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="-17dp"
-        android:visibility="visible" />
-
-
-    <ImageView
-        android:id="@+id/I2"
-        android:layout_width="117dp"
-        android:layout_height="68dp"
-        android:layout_alignBottom="@+id/h"
-        android:layout_marginBottom="-210dp"
-        android:src="@drawable/doc" />
 
     <TextView
         android:id="@+id/C2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/I2"
-        android:layout_marginLeft="150dp"
-        android:layout_marginBottom="20dp"
-        android:text="Dr.Aditi Mehra"
-        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="510dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Dr.Deep John"
+        android:textColor="#4E57C7"
         android:textFontWeight="@android:integer/config_longAnimTime"
         android:textSize="25dp" />
 
-    <View
-        android:id="@+id/line2"
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:layout_marginTop="275dp"
-        android:background="#0000A0" />
-
     <RatingBar
         android:id="@+id/ratingBar2"
-        android:layout_width="192dp"
-        android:layout_height="44dp"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
         android:layout_below="@id/C1"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="0dp"
+        android:progressTint="#4E57C7"
         android:visibility="visible" />
 
 

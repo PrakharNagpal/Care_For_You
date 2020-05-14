@@ -14,7 +14,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class IntroScreen extends AppCompatActivity {
-    Button b1,b2,b3,b4,b5,b6;
+    Button b1,b2,b3,b4,b5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
