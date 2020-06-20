@@ -67,7 +67,7 @@
         android:fontFamily="@font/montserrat"
         android:padding="15dp"
 
-        android:text="Dr. John Phillips \n Dt 15/03"
+        android:text="Dr. John Phillip \n Dt 15/03"
 
         android:textColor="#4E57C7"
         android:textStyle="bold" />
